@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    
 }
 header{
     display: flex;
@@ -10,6 +11,9 @@ header{
     align-items: baseline;
     padding: 10px;
     background-color: gray;
+}
+.links{
+    
 }
 .content{
     display: flex;
@@ -22,10 +26,11 @@ header{
 }
 footer{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin-top: auto;
     background-color: gray;
+    font-size: 12px;
 }
 
 .one, .three{
@@ -74,13 +79,21 @@ footer{
 
 .four{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-   margin: 40px;
-    padding: 10px;
+   margin: 60px;
+   flex: 1;
+    
+
 }
 .foritem{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
 }
