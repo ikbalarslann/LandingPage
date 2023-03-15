@@ -1,0 +1,86 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    background-color: gray;
+}
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: stretch;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: gray;
+}
+
+.one, .three{
+    background-color: aqua;
+}
+.two, .four{
+    background-color: rgb(100, 103, 103);
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex: 1;
+}
+
+.one{
+    display: flex;
+    
+    justify-content: center;
+}
+.leftinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.bottomItems{
+    display: flex;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 40px;
+    padding: 10px;
+}
+.foritem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
